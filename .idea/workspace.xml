@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db.iml" afterPath="$PROJECT_DIR$/toro.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/db/Connector.java" afterPath="$PROJECT_DIR$/src/main/toro/Connector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/db/Db.java" afterPath="$PROJECT_DIR$/src/main/toro/Db.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/db/EdgePreparedStatement.java" afterPath="$PROJECT_DIR$/src/main/toro/EdgePreparedStatement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/db/EdgeResultSet.java" afterPath="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/db/Statement.java" afterPath="$PROJECT_DIR$/src/main/toro/Statement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/example/Example.java" afterPath="$PROJECT_DIR$/src/main/example/Example.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="" />
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281411440" ignored="false" />
