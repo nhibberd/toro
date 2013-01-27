@@ -11,18 +11,7 @@ import java.util.List;
 
 public class Db {
     private final Statement statement = new Statement();
-
-    public void executeUpdateObject(Connection connection, String sql, final Object o) {
-        statement.withStatement(connection, sql, new Action<PreparedStatement>() {
-            public void apply(PreparedStatement preparedStatement) {
-                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
-                z.setObject(1, o);
-                z.executeUpdate();
-            }
-        });
-    }
-
-    public void executeUpdateObjects(Connection connection, String sql, final Object... os) {
+    public void updateObjects(Connection connection, String sql, final Object... os){
         statement.withStatement(connection, sql, new Action<PreparedStatement>() {
             public void apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
@@ -62,25 +51,9 @@ public class Db {
         });
     }
 
-    public List<Object> queryLoopObject(Connection connection, String sql, final Integer columnNumber){
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Object>>() {
-            public List<Object> apply(PreparedStatement preparedStatement) {
-                List<Object> list = new ArrayList<Object>();
-                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
-                EdgeResultSet resultSet = new EdgeResultSet(z);
-                while (resultSet.next()){
-                    list.add(resultSet.getObject(columnNumber));
-                }
-                return list;
-            }
-        });
-    }
-
-    /*
-
-    public String queryString(Connection connection, String sql, final Integer column) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public String apply(PreparedStatement preparedStatement) {
+    public Option<String> queryString(Connection connection, String sql, final Integer column) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<String>>() {
+            public Option<String> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
@@ -91,79 +64,210 @@ public class Db {
     }
 
     public Option<Integer> queryInt(Connection connection, String sql, final Integer column) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public Option<Object> apply(PreparedStatement preparedStatement) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Integer>>() {
+            public Option<Integer> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
-                    return Option.some(resultSet.getObject(column));
+                    return Option.some(resultSet.getInt(column));
                 return Option.none();
             }
         });
     }
 
     public Option<Long> queryLong(Connection connection, String sql, final Integer column) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public Option<Object> apply(PreparedStatement preparedStatement) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Long>>() {
+            public Option<Long> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
-                    return Option.some(resultSet.getObject(column));
+                    return Option.some(resultSet.getLong(column));
                 return Option.none();
             }
         });
     }
 
     public Option<Boolean> queryBool(Connection connection, String sql, final Integer column) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public Option<Object> apply(PreparedStatement preparedStatement) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Boolean>>() {
+            public Option<Boolean> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
-                    return Option.some(resultSet.getObject(column));
+                    return Option.some(resultSet.getBoolean(column));
                 return Option.none();
             }
         });
     }
 
-    public Option<Object> queryFromObject(Connection connection, String sql, final Object data, final Integer column) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public Option<Object> apply(PreparedStatement preparedStatement) {
-                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
-                z.setObject(1,data);
-                EdgeResultSet resultSet = new EdgeResultSet(z);
-                if(resultSet.next())
-                    return Option.some(resultSet.getObject(column));
-                return Option.none();
-            }
-        });
-    }
-
-    public Option<Object> queryObjectFromObject(Connection connection, String sql, final Object data, final Integer column) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public Option<Object> apply(PreparedStatement preparedStatement) {
-                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
-                z.setObject(1,data);
-                EdgeResultSet resultSet = new EdgeResultSet(z);
-                if(resultSet.next())
-                    return Option.some(resultSet.getObject(column));
-                return Option.none();
-            }
-        });
-    }
-
-    public Option<Object> queryObjectFromObjects(Connection connection, String sql, final Integer column, final Object... os) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
-            public Option<Object> apply(PreparedStatement preparedStatement) {
+    public Option<String> queryStringFromObjects(Connection connection, String sql, final Integer column, final Object... os) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<String>>() {
+            public Option<String> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 z.set(os);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
-                    return Option.some(resultSet.getObject(column));
+                    return Option.some(resultSet.getString(column));
                 return Option.none();
             }
         });
     }
 
-    */
+    public Option<Integer> queryIntegerFromObjects(Connection connection, String sql, final Integer column, final Object... os) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Integer>>() {
+            public Option<Integer> apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    return Option.some(resultSet.getInt(column));
+                return Option.none();
+            }
+        });
+    }
+
+    public Option<Long> queryLongFromObjects(Connection connection, String sql, final Integer column, final Object... os) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Long>>() {
+            public Option<Long> apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    return Option.some(resultSet.getLong(column));
+                return Option.none();
+            }
+        });
+    }
+
+    public Option<Boolean> queryBooleanFromObjects(Connection connection, String sql, final Integer column, final Object... os) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Boolean>>() {
+            public Option<Boolean> apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    return Option.some(resultSet.getBoolean(column));
+                return Option.none();
+            }
+        });
+    }
+
+    public List<String> queryListString(Connection connection, String sql, final Integer columnNumber){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<String>>() {
+            public List<String> apply(PreparedStatement preparedStatement) {
+                List<String> list = new ArrayList<String>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getString(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<Integer> queryListInt(Connection connection, String sql, final Integer columnNumber){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Integer>>() {
+            public List<Integer> apply(PreparedStatement preparedStatement) {
+                List<Integer> list = new ArrayList<Integer>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getInt(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<Long> queryListLong(Connection connection, String sql, final Integer columnNumber){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Long>>() {
+            public List<Long> apply(PreparedStatement preparedStatement) {
+                List<Long> list = new ArrayList<Long>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getLong(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<Boolean> queryListBoolean(Connection connection, String sql, final Integer columnNumber){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Boolean>>() {
+            public List<Boolean> apply(PreparedStatement preparedStatement) {
+                List<Boolean> list = new ArrayList<Boolean>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getBoolean(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<String> queryListStringFromObjects(Connection connection, String sql, final Integer columnNumber, final Object... os){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<String>>() {
+            public List<String> apply(PreparedStatement preparedStatement) {
+                List<String> list = new ArrayList<String>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getString(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<Integer> queryListIntFromObjects(Connection connection, String sql, final Integer columnNumber, final Object... os){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Integer>>() {
+            public List<Integer> apply(PreparedStatement preparedStatement) {
+                List<Integer> list = new ArrayList<Integer>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getInt(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<Long> queryListLongFromObjects(Connection connection, String sql, final Integer columnNumber, final Object... os){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Long>>() {
+            public List<Long> apply(PreparedStatement preparedStatement) {
+                List<Long> list = new ArrayList<Long>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getLong(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+    public List<Boolean> queryListBooleanFromObjects(Connection connection, String sql, final Integer columnNumber, final Object... os){
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, List<Boolean>>() {
+            public List<Boolean> apply(PreparedStatement preparedStatement) {
+                List<Boolean> list = new ArrayList<Boolean>();
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                z.set(os);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                while (resultSet.next()){
+                    list.add(resultSet.getBoolean(columnNumber));
+                }
+                return list;
+            }
+        });
+    }
+
+
+
+
 }

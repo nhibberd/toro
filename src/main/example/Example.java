@@ -19,14 +19,18 @@ public class Example {
                 // Initialize Db
                 Db database = new Db();
 
-                database.executeUpdate(connection,"create table test ( version varchar(10), foo varchar(255) )");
-                database.executeUpdateObjects(connection,"insert into test values (?, ?)", 1, "stuff");
+                database.executeUpdate(connection,"create table test ( version varchar(10), second varchar(255) )");
+                database.updateObjects(connection, "insert into test values (?, ?)", 1, "foo");
+                database.updateObjects(connection,"update test set version=?", 3);
 
                 Boolean exists = database.queryExists(connection,"select * from test");
                 System.out.println(exists);
 
-                //Option<Object> version = database.queryObject(connection,"select * from test",1);
-                //System.out.println(version.);
+                Option<Integer> version = database.queryInt(connection, "select * from test", 1);
+                System.out.println( version.getOr(0) );
+
+                Option<String> second = database.queryString(connection, "select second from test",1);
+                System.out.println( second.getOrDie() );
 
 
             }
