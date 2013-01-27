@@ -6,6 +6,7 @@ import toro.Connector;
 import toro.Db;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
 
 public class Example {
     private static final Connector connector = new Connector("jdbc:hsqldb:mem:test", "SA", "");
@@ -27,10 +28,10 @@ public class Example {
                 System.out.println(exists);
 
                 Option<Integer> version = database.queryInt(connection, "select * from test", 1);
-                System.out.println( version.getOr(0) );
+                System.out.println( "version : " + version.getOr(0) );
 
                 Option<String> second = database.queryString(connection, "select second from test",1);
-                System.out.println( second.getOrDie() );
+                System.out.println( "second : " + second.getOrDie() );
 
 
             }

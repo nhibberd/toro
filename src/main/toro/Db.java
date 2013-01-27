@@ -11,6 +11,25 @@ import java.util.List;
 
 public class Db {
     private final Statement statement = new Statement();
+
+
+   /*
+
+    public <T> T query(Connection connection, String sql, final Get<T> get) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, T>() {
+            public T apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    System.out.println(get.type());
+                    //return resultSet.get(get);
+                return null;
+            }
+        });
+    }
+
+    */
+
     public void updateObjects(Connection connection, String sql, final Object... os){
         statement.withStatement(connection, sql, new Action<PreparedStatement>() {
             public void apply(PreparedStatement preparedStatement) {
@@ -266,8 +285,4 @@ public class Db {
             }
         });
     }
-
-
-
-
 }
