@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/db.iml" filepath="$PROJECT_DIR$/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toro.iml" filepath="$PROJECT_DIR$/toro.iml" />
     </modules>
   </component>
 </project>

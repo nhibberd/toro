@@ -1,4 +1,4 @@
-package db;
+package toro;
 
 import data.core.Action;
 import data.core.Function;

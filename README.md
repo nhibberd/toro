@@ -15,4 +15,4 @@ database magic
 ### Documentation
 
 * [User Docs]()
-* [Examples](https://github.com/nhibberd/db/blob/master/src/main/example/Example.java)
+* [Examples](https://github.com/nhibberd/toro/blob/master/src/main/example/Example.java)
