@@ -19,7 +19,7 @@ public class Connector {
         this.password = password;
     }
     
-    protected <A> A withConnection(Function<Connection, A> f) {
+    public <A> A withConnection(Function<Connection, A> f) {
         Connection c = connection();
         try {
             A a = f.apply(c);
@@ -33,7 +33,7 @@ public class Connector {
         }
     }
 
-    protected void withConnection(Action<Connection> f) {
+    public void withConnection(Action<Connection> f) {
         Connection c = connection();
         try {
             f.apply(c);

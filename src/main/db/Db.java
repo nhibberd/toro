@@ -76,7 +76,45 @@ public class Db {
         });
     }
 
-    public Option<Object> queryObject(Connection connection, String sql, final Integer column) {
+    /*
+
+    public String queryString(Connection connection, String sql, final Integer column) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
+            public String apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    return Option.some(resultSet.getString(column));
+                return Option.none();
+            }
+        });
+    }
+
+    public Option<Integer> queryInt(Connection connection, String sql, final Integer column) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
+            public Option<Object> apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    return Option.some(resultSet.getObject(column));
+                return Option.none();
+            }
+        });
+    }
+
+    public Option<Long> queryLong(Connection connection, String sql, final Integer column) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
+            public Option<Object> apply(PreparedStatement preparedStatement) {
+                EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
+                EdgeResultSet resultSet = new EdgeResultSet(z);
+                if(resultSet.next())
+                    return Option.some(resultSet.getObject(column));
+                return Option.none();
+            }
+        });
+    }
+
+    public Option<Boolean> queryBool(Connection connection, String sql, final Integer column) {
         return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<Object>>() {
             public Option<Object> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
@@ -126,4 +164,6 @@ public class Db {
             }
         });
     }
+
+    */
 }
