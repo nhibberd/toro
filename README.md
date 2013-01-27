@@ -3,13 +3,16 @@
 
 ### What is toro?
 
-database magic
+Toro is a Java library to help manage SQL connections. It provides functionality to easily intereact with databases in a safe a secure manner.
 
 
 ### Features
 
-* asd
-* ads
+* Handles SQL connections
+* Edges PreparedStatements and ResultSets
+* Number of methods (`toro.Db`) to execute sql updates and querys
+* Returns Options of Primitive Data Types
+* Returns Lists of Primitive Data Types
 
 
 ### Documentation
