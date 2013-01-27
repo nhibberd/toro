@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COPYING" afterPath="$PROJECT_DIR$/COPYING" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +14,7 @@
     <file path="/Result.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281304298" ignored="false" />
     <file path="/Db.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359283484801" ignored="false" />
     <file path="/LICENSE" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281831072" ignored="false" />
-    <file path="/COPYING" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281878263" ignored="false" />
+    <file path="/COPYING" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286388294" ignored="false" />
     <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286201132" ignored="false" />
     <file path="/build.sbt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285666082" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.properties" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
@@ -36,6 +35,7 @@
     <file path="$PROJECT_DIR$/target/scala-2.9.2/cache/default-d1109d/compile/for_package-bin/inputs" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687275" ignored="false" />
     <file path="$PROJECT_DIR$/target/streams/$global/update/$global/out" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687275" ignored="false" />
     <file path="$PROJECT_DIR$/target/scala-2.9.2/cache/default-d1109d/compile/for_package-bin/output" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687276" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286389608" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,15 +94,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Example.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Example.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="58" selection-start="583" selection-end="583" vertical-scroll-proportion="0.34615386">
+            <state line="21" column="58" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#369#1295#0" expanded="true" />
                 <element signature="e#1284#1285#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="COPYING" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/COPYING">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="47" selection-start="198" selection-end="198" vertical-scroll-proportion="0.06593407">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,12 +138,12 @@
         <option value="$PROJECT_DIR$/src/main/data/core/Result.java" />
         <option value="$PROJECT_DIR$/src/main/data/core/Get.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/COPYING" />
         <option value="$PROJECT_DIR$/src/main/db/A.java" />
         <option value="$PROJECT_DIR$/src/main/db/Db.java" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/example/Example.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/COPYING" />
       </list>
     </option>
   </component>
@@ -553,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COPYING">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="75" selection-start="226" selection-end="226" vertical-scroll-proportion="0.09966777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="30" selection-start="499" selection-end="499" vertical-scroll-proportion="0.24916944">
@@ -672,12 +674,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="58" selection-start="583" selection-end="583" vertical-scroll-proportion="0.34615386">
+        <state line="21" column="58" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#369#1295#0" expanded="true" />
             <element signature="e#1284#1285#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="198" selection-end="198" vertical-scroll-proportion="0.06593407">
+          <folding />
         </state>
       </provider>
     </entry>
