@@ -10,9 +10,11 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 
 * Neatly handling SQL connections
 * Number of methods (`toro.Db`) to execute sql updates and querys
-* Update all Primitive Data Types
-* Returns Options of Primitive Data Types (`String, Integer, Long, Boolean`)
-* Returns Lists of Primitive Data Types (`String, Integer, Long, Boolean`)
+* Update Primitive Data Types
+* Query Options of Primitive Data Types
+* Query Lists of Primitive Data Types
+* Query Generic Data Types (`Interface Get<T>`)
+* Query Generic Objects (`Interface FromDb`)
 
 
 ### Documentation

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/toro/Db.java" afterPath="$PROJECT_DIR$/src/main/toro/Db.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" afterPath="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/example/Example.java" afterPath="$PROJECT_DIR$/src/main/example/Example.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/toro/Tmp.java" afterPath="$PROJECT_DIR$/src/main/toro/Tmp.java" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +15,7 @@
     <file path="/Db.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349953948" ignored="false" />
     <file path="/LICENSE" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281831072" ignored="false" />
     <file path="/COPYING" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286388294" ignored="false" />
-    <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349239033" ignored="false" />
+    <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350255070" ignored="false" />
     <file path="/build.sbt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285666082" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.properties" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.xml" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
@@ -108,10 +104,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="33" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+            <state line="15" column="47" selection-start="461" selection-end="461" vertical-scroll-proportion="0.37437603">
               <folding />
             </state>
           </provider>
@@ -224,10 +220,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Example.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="87" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.77537435">
+            <state line="43" column="87" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,11 +269,11 @@
         <option value="$PROJECT_DIR$/src/main/toro/GetInt.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetBoolean.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetLong.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Db.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Tmp.java" />
         <option value="$PROJECT_DIR$/src/main/example/Example.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -802,7 +798,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.6698718" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3301282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3301282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -945,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/toro/Db.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="61" selection-start="2538" selection-end="2538" vertical-scroll-proportion="-13.2">
@@ -1073,10 +1062,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="87" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.77537435">
+        <state line="43" column="87" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="461" selection-end="461" vertical-scroll-proportion="0.37437603">
+          <folding />
         </state>
       </provider>
     </entry>
