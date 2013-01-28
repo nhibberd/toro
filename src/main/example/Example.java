@@ -4,6 +4,7 @@ import data.core.Action;
 import data.core.Option;
 import toro.Connector;
 import toro.Db;
+import toro.GetString;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -32,6 +33,10 @@ public class Example {
 
                 Option<String> second = database.queryString(connection, "select second from test",1);
                 System.out.println( "second : " + second.getOrDie() );
+
+
+                Option<String> s = database.query(connection,"select second from test",new GetString());
+                System.out.println("s = " + s.getOrDie());
 
 
             }

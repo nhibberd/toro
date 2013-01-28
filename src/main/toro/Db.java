@@ -2,6 +2,7 @@ package toro;
 
 import data.core.Action;
 import data.core.Function;
+import data.core.Get;
 import data.core.Option;
 
 import java.sql.Connection;
@@ -12,23 +13,17 @@ import java.util.List;
 public class Db {
     private final Statement statement = new Statement();
 
-
-   /*
-
-    public <T> T query(Connection connection, String sql, final Get<T> get) {
-        return statement.withStatement(connection, sql, new Function<PreparedStatement, T>() {
-            public T apply(PreparedStatement preparedStatement) {
+    public <T> Option<T> query(Connection connection, String sql, final Get<T> get) {
+        return statement.withStatement(connection, sql, new Function<PreparedStatement, Option<T>>() {
+            public Option<T> apply(PreparedStatement preparedStatement) {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
-                    System.out.println(get.type());
-                    //return resultSet.get(get);
-                return null;
+                    return Option.some(get.result(resultSet,1));
+                return Option.none();
             }
         });
     }
-
-    */
 
     public void updateObjects(Connection connection, String sql, final Object... os){
         statement.withStatement(connection, sql, new Action<PreparedStatement>() {

@@ -18,3 +18,8 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 
 * [User Docs]()
 * [Examples](https://github.com/nhibberd/toro/blob/master/src/main/example/Example.java)
+
+
+### Usage
+
+Implement interface Get
