@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,10 +110,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="57" selection-start="757" selection-end="757" vertical-scroll-proportion="0.24725275">
+            <state line="15" column="57" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.016483517">
               <folding />
             </state>
           </provider>
@@ -135,7 +144,7 @@
       <file leaf-file-name="Example.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="33" selection-start="67" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="3" column="24" selection-start="67" selection-end="82" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -189,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/toro/GetInt.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetBoolean.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetLong.java" />
         <option value="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" />
@@ -205,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/main/example/Example.java" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -445,6 +454,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="streams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -966,7 +993,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="67" selection-end="82" vertical-scroll-proportion="0.0">
+        <state line="3" column="24" selection-start="67" selection-end="82" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1001,7 +1028,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="757" selection-end="757" vertical-scroll-proportion="0.24725275">
+        <state line="15" column="57" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.016483517">
           <folding />
         </state>
       </provider>
