@@ -5,11 +5,12 @@ import data.core.Option;
 import toro.*;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 
 import static toro.Getters.*;
 
 public class Example {
+
+    // Initialize Connector
     private static final Connector connector = new Connector("jdbc:hsqldb:mem:test", "SA", "");
 
     public static void main(String[] args) {
@@ -20,6 +21,7 @@ public class Example {
 
                 // Initialize Db
                 Db database = new Db();
+
 
                 database.executeUpdate(connection,"create table test ( version varchar(10), second varchar(255) )");
                 database.updateObjects(connection, "insert into test values (?, ?)", 1, "foo");
@@ -38,7 +40,7 @@ public class Example {
                 Option<String> s = database.query(connection,"select second from test", getString);
                 System.out.println("s = " + s.getOrDie());
 
-                Option<Tmp> tmp = database.queryObject(connection,"select * from test", new Tmp());
+                Option<TestObject> tmp = database.queryObject(connection, "select * from test", new TestObject());
                 System.out.println("tmp.getOrDie().version = " + tmp.getOrDie().version);
                 System.out.println("tmp.getOrDie().second = " + tmp.getOrDie().second);
 
@@ -46,8 +48,3 @@ public class Example {
         });
     }
 }
-
-
-/*
-Some other consolidation. Have a convenience that converts a Get into a FromDb.
- */

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/toro/TestObject.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/Tmp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/example/Example.java" afterPath="$PROJECT_DIR$/src/main/example/Example.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359348275683" ignored="false" />
-    <file path="/Example.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351237964" ignored="false" />
+    <file path="/Example.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351699048" ignored="false" />
     <file path="/Connector.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359280025272" ignored="false" />
     <file path="$PROJECT_DIR$/../agpro/agpro/.idea/workspace.xml" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281500387" ignored="false" />
     <file path="/fragment.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350518547" ignored="false" />
@@ -110,10 +113,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="175" selection-start="481" selection-end="481" vertical-scroll-proportion="0.2006689">
+            <state line="12" column="175" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,21 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Example.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="55" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tmp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/toro/Tmp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+            <state line="3" column="33" selection-start="67" selection-end="82" vertical-scroll-proportion="0.04945055">
               <folding />
             </state>
           </provider>
@@ -170,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/data/core/Get.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetString.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetInt.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetBoolean.java" />
@@ -182,10 +173,11 @@
         <option value="$PROJECT_DIR$/src/main/toro/GetShort.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetByte.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Getters.java" />
-        <option value="$PROJECT_DIR$/src/main/example/Example.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Db.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Convert.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/toro/TestObject.java" />
+        <option value="$PROJECT_DIR$/src/main/example/Example.java" />
       </list>
     </option>
   </component>
@@ -808,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/toro/Tmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/toro/Getters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="25" selection-start="60" selection-end="60" vertical-scroll-proportion="0.06593407">
@@ -843,15 +828,6 @@
             <element signature="e#1489#1638#0" expanded="true" />
             <element signature="e#1496#1502#0" expanded="true" />
             <element signature="e#1631#1632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="55" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,7 +885,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="175" selection-start="481" selection-end="481" vertical-scroll-proportion="0.2006689">
+        <state line="12" column="175" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/toro/TestObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.23076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="67" selection-end="82" vertical-scroll-proportion="0.04945055">
           <folding />
         </state>
       </provider>
