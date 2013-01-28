@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/GetInteger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/GetLong.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/GetString.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/toro/Db.java" afterPath="$PROJECT_DIR$/src/main/toro/Db.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/example/Example.java" afterPath="$PROJECT_DIR$/src/main/example/Example.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +15,7 @@
     <file path="/Db.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351409658" ignored="false" />
     <file path="/LICENSE" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281831072" ignored="false" />
     <file path="/COPYING" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286388294" ignored="false" />
-    <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350396408" ignored="false" />
+    <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351512223" ignored="false" />
     <file path="/build.sbt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285666082" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.properties" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.xml" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
@@ -115,46 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="121" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+            <state line="15" column="33" selection-start="657" selection-end="657" vertical-scroll-proportion="0.25083613">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Db.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/toro/Db.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="0" selection-start="7163" selection-end="7163" vertical-scroll-proportion="2.542373">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#343#592#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#737#1013#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1147#1480#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1645#2005#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#2157#2593#0" expanded="true" />
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2767#3208#0" expanded="true" />
-                <element signature="e#3197#3198#0" expanded="true" />
-                <element signature="e#3372#3807#0" expanded="true" />
-                <element signature="e#3796#3797#0" expanded="true" />
-                <element signature="e#3991#4454#0" expanded="true" />
-                <element signature="e#4443#4444#0" expanded="true" />
-                <element signature="e#4649#5111#0" expanded="true" />
-                <element signature="e#5100#5101#0" expanded="true" />
-                <element signature="e#5293#5792#0" expanded="true" />
-                <element signature="e#5781#5782#0" expanded="true" />
-                <element signature="e#5958#6444#0" expanded="true" />
-                <element signature="e#6433#6434#0" expanded="true" />
-                <element signature="e#6641#7154#0" expanded="true" />
-                <element signature="e#7143#7144#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/main/toro/GetLong.java" />
         <option value="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Tmp.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/toro/GetDouble.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetFloat.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetShort.java" />
@@ -213,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/toro/Getters.java" />
         <option value="$PROJECT_DIR$/src/main/example/Example.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Db.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -842,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="121" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/toro/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="4" selection-start="86" selection-end="86" vertical-scroll-proportion="0.14975041">
@@ -929,6 +882,13 @@
             <element signature="e#6641#7154#0" expanded="true" />
             <element signature="e#7143#7144#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="657" selection-end="657" vertical-scroll-proportion="0.25083613">
+          <folding />
         </state>
       </provider>
     </entry>
