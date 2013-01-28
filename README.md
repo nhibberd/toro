@@ -1,7 +1,7 @@
 # Toro
 
 
-[![Build Status](https://travis-ci.org/nhibberd/java.toro.png)](https://travis-ci.org/nhibberd/java.toro)
+[![Build Status](https://travis-ci.org/nhibberd/toro.png)](https://travis-ci.org/nhibberd/toro)
 
 ### What is java.toro?
 
