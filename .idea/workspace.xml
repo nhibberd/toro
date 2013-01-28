@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/toro/Convert.java" afterPath="$PROJECT_DIR$/src/main/toro/Convert.java" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +51,7 @@
     <file path="/GetShort.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350513256" ignored="false" />
     <file path="/GetByte.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350526296" ignored="false" />
     <file path="/Getters.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351147708" ignored="false" />
-    <file path="/Convert.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351077765" ignored="false" />
+    <file path="/Convert.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351592403" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,11 +110,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="657" selection-end="657" vertical-scroll-proportion="0.25083613">
+            <state line="15" column="33" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Convert.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/toro/Convert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="22" selection-start="85" selection-end="85" vertical-scroll-proportion="0.082417585">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#160#305#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,11 +181,11 @@
         <option value="$PROJECT_DIR$/src/main/toro/GetFloat.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetShort.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetByte.java" />
-        <option value="$PROJECT_DIR$/src/main/toro/Convert.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Getters.java" />
         <option value="$PROJECT_DIR$/src/main/example/Example.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Db.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/toro/Convert.java" />
       </list>
     </option>
   </component>
@@ -802,15 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/toro/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="86" selection-end="86" vertical-scroll-proportion="0.14975041">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/toro/Getters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="25" selection-start="60" selection-end="60" vertical-scroll-proportion="0.06593407">
@@ -887,8 +891,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="657" selection-end="657" vertical-scroll-proportion="0.25083613">
+        <state line="15" column="33" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/toro/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="85" selection-end="85" vertical-scroll-proportion="0.082417585">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#160#305#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
