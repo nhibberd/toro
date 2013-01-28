@@ -1,6 +1,6 @@
-package java.data.core;
+package data.core;
 
-import java.toro.EdgeResultSet;
+import toro.EdgeResultSet;
 
 public interface Get<T> {
     T result(EdgeResultSet resultSet, Integer column);

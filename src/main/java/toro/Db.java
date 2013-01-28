@@ -1,6 +1,6 @@
-package java.toro;
+package toro;
 
-import java.data.core.*;
+import data.core.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

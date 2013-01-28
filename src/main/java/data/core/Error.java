@@ -1,4 +1,4 @@
-package java.data.core;
+package data.core;
 
 public class Error {
     private String type;

@@ -1,14 +1,14 @@
-package java.example;
+package example;
 
-import java.data.core.Action;
-import java.data.core.FromDb;
-import java.data.core.Option;
-import java.toro.*;
+import data.core.Action;
+import data.core.FromDb;
+import data.core.Option;
+import toro.*;
 
 import java.sql.Connection;
 
-import static java.toro.Getters.*;
-import static java.toro.Convert.*;
+import static toro.Getters.*;
+import static toro.Convert.*;
 
 public class Example {
 

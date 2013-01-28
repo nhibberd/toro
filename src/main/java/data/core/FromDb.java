@@ -1,6 +1,6 @@
-package java.data.core;
+package data.core;
 
-import java.toro.EdgeResultSet;
+import toro.EdgeResultSet;
 
 public interface FromDb<T> {
     T from(EdgeResultSet resultSet);

@@ -1,4 +1,4 @@
-package java.data.core;
+package data.core;
 
 public interface Thunk<A> {
     A apply();

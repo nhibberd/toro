@@ -1,7 +1,7 @@
-package java.toro;
+package toro;
 
-import java.data.core.FromDb;
-import java.data.core.Get;
+import data.core.FromDb;
+import data.core.Get;
 
 public class Convert {
     public static <T> FromDb<T> getToFromDb(final Get<T> object){
