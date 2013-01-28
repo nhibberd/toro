@@ -57,6 +57,38 @@ public class EdgeResultSet {
             throw new RuntimeException(e);
         }
     }
+
+    protected Short getShort(int index) {
+        try {
+            return resultSet.getShort(index);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    protected Double getDouble(int index) {
+        try {
+            return resultSet.getDouble(index);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    protected Float getFloat(int index) {
+        try {
+            return resultSet.getFloat(index);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    protected Byte getByte(int index) {
+        try {
+            return resultSet.getByte(index);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
     
     protected Object getObject(int index) {
         try {

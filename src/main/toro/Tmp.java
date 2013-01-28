@@ -3,16 +3,19 @@ package toro;
 import data.core.FromDb;
 
 public class Tmp implements FromDb<Tmp> {
-    public String data;
     public Integer version;
+    public String second;
 
-    public Tmp(String data, Integer version) {
-        this.data = data;
+    public Tmp(Integer version, String second) {
         this.version = version;
+        this.second = second;
+    }
+
+    public Tmp() {
+
     }
 
     public Tmp from(EdgeResultSet resultSet) {
-        return new Tmp(resultSet.getString(1),resultSet.getInt(2));
-
+        return new Tmp(resultSet.getInt(1),resultSet.getString(2));
     }
 }
