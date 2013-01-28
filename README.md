@@ -9,6 +9,7 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 ### Features
 
 * Neatly handling SQL connections
+* Convenient ([`Option<T>`](https://github.com/nhibberd/toro/blob/master/src/main/data/core/Option.java))
 * Number of methods (`toro.Db`) to execute sql updates and querys
 * Interfaces for Generic Data Types ([`Interface Get<T>`](https://github.com/nhibberd/toro/blob/master/src/main/data/core/Get.java)) and Generic Objects ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/data/core/FromDb.java))
 * Update Generic Data Types
