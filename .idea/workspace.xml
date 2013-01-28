@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +15,7 @@
     <file path="/Db.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351409658" ignored="false" />
     <file path="/LICENSE" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281831072" ignored="false" />
     <file path="/COPYING" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286388294" ignored="false" />
-    <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351918686" ignored="false" />
+    <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359352102621" ignored="false" />
     <file path="/build.sbt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285666082" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.properties" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
     <file path="$PROJECT_DIR$/target/resolution-cache/my-db-project/my-db-project_2.9.2/0.1/resolved.xml.xml" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359285687274" ignored="false" />
@@ -114,7 +113,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="252" selection-end="252" vertical-scroll-proportion="0.18394649">
+            <state line="15" column="57" selection-start="757" selection-end="757" vertical-scroll-proportion="0.24725275">
               <folding />
             </state>
           </provider>
@@ -1002,7 +1001,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="252" selection-end="252" vertical-scroll-proportion="0.18394649">
+        <state line="15" column="57" selection-start="757" selection-end="757" vertical-scroll-proportion="0.24725275">
           <folding />
         </state>
       </provider>
