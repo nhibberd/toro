@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5393a78-615e-4776-8c7b-a32613232d22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/GetInteger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/GetLong.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/toro/GetString.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/toro/Db.java" afterPath="$PROJECT_DIR$/src/main/toro/Db.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/example/Example.java" afterPath="$PROJECT_DIR$/src/main/example/Example.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="db.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359348275683" ignored="false" />
-    <file path="/Example.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350054507" ignored="false" />
+    <file path="/Example.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351237964" ignored="false" />
     <file path="/Connector.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359280025272" ignored="false" />
     <file path="$PROJECT_DIR$/../agpro/agpro/.idea/workspace.xml" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281500387" ignored="false" />
-    <file path="/fragment.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349115041" ignored="false" />
+    <file path="/fragment.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350518547" ignored="false" />
     <file path="/Result.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281304298" ignored="false" />
-    <file path="/Db.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349953948" ignored="false" />
+    <file path="/Db.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351409658" ignored="false" />
     <file path="/LICENSE" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359281831072" ignored="false" />
     <file path="/COPYING" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359286388294" ignored="false" />
     <file path="/README.md" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350396408" ignored="false" />
@@ -46,6 +51,12 @@
     <file path="/GetInt.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349052937" ignored="false" />
     <file path="/GetBoolean.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349111273" ignored="false" />
     <file path="/GetLong.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359349121336" ignored="false" />
+    <file path="/GetDouble.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350487393" ignored="false" />
+    <file path="/GetFloat.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350505776" ignored="false" />
+    <file path="/GetShort.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350513256" ignored="false" />
+    <file path="/GetByte.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359350526296" ignored="false" />
+    <file path="/Getters.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351147708" ignored="false" />
+    <file path="/Convert.java" changelist="f5393a78-615e-4776-8c7b-a32613232d22" time="1359351077765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,117 +115,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="121" selection-start="659" selection-end="659" vertical-scroll-proportion="0.39933443">
+            <state line="16" column="121" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Db.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Db.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/toro/Db.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="61" selection-start="2538" selection-end="2538" vertical-scroll-proportion="-13.2">
+            <state line="157" column="0" selection-start="7163" selection-end="7163" vertical-scroll-proportion="2.542373">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#362#638#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#764#1013#0" expanded="true" />
+                <element signature="e#343#592#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#737#1013#0" expanded="true" />
                 <element signature="e#1002#1003#0" expanded="true" />
                 <element signature="e#1147#1480#0" expanded="true" />
                 <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1640#2008#0" expanded="true" />
-                <element signature="e#1997#1998#0" expanded="true" />
-                <element signature="e#2167#2602#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
-                <element signature="e#2754#3190#0" expanded="true" />
-                <element signature="e#3179#3180#0" expanded="true" />
-                <element signature="e#3353#3803#0" expanded="true" />
-                <element signature="e#3792#3793#0" expanded="true" />
-                <element signature="e#3964#4413#0" expanded="true" />
-                <element signature="e#4402#4403#0" expanded="true" />
-                <element signature="e#4572#5016#0" expanded="true" />
-                <element signature="e#5005#5006#0" expanded="true" />
-                <element signature="e#5178#5631#0" expanded="true" />
-                <element signature="e#5620#5621#0" expanded="true" />
-                <element signature="e#5792#6239#0" expanded="true" />
-                <element signature="e#6228#6229#0" expanded="true" />
-                <element signature="e#6402#6852#0" expanded="true" />
-                <element signature="e#6841#6842#0" expanded="true" />
-                <element signature="e#7013#7460#0" expanded="true" />
-                <element signature="e#7449#7450#0" expanded="true" />
-                <element signature="e#7619#8063#0" expanded="true" />
-                <element signature="e#8052#8053#0" expanded="true" />
-                <element signature="e#8248#8711#0" expanded="true" />
-                <element signature="e#8700#8701#0" expanded="true" />
-                <element signature="e#8906#9383#0" expanded="true" />
-                <element signature="e#9372#9373#0" expanded="true" />
-                <element signature="e#9579#10055#0" expanded="true" />
-                <element signature="e#10044#10045#0" expanded="true" />
-                <element signature="e#10245#10716#0" expanded="true" />
-                <element signature="e#10705#10706#0" expanded="true" />
-                <element signature="e#10912#11392#0" expanded="true" />
-                <element signature="e#11381#11382#0" expanded="true" />
-                <element signature="e#11584#12058#0" expanded="true" />
-                <element signature="e#12047#12048#0" expanded="true" />
-                <element signature="e#12252#12729#0" expanded="true" />
-                <element signature="e#12718#12719#0" expanded="true" />
-                <element signature="e#12921#13395#0" expanded="true" />
-                <element signature="e#13384#13385#0" expanded="true" />
-                <element signature="e#13585#14056#0" expanded="true" />
-                <element signature="e#14045#14046#0" expanded="true" />
-                <element signature="e#14240#14739#0" expanded="true" />
-                <element signature="e#14728#14729#0" expanded="true" />
-                <element signature="e#14910#15427#0" expanded="true" />
-                <element signature="e#15086#15094#0" expanded="true" />
-                <element signature="e#15416#15417#0" expanded="true" />
-                <element signature="e#15595#16113#0" expanded="true" />
-                <element signature="e#15774#15783#0" expanded="true" />
-                <element signature="e#16102#16103#0" expanded="true" />
-                <element signature="e#16279#16786#0" expanded="true" />
-                <element signature="e#16449#16455#0" expanded="true" />
-                <element signature="e#16775#16776#0" expanded="true" />
-                <element signature="e#16958#17480#0" expanded="true" />
-                <element signature="e#17137#17146#0" expanded="true" />
-                <element signature="e#17469#17470#0" expanded="true" />
-                <element signature="e#17648#18160#0" expanded="true" />
-                <element signature="e#17821#17828#0" expanded="true" />
-                <element signature="e#18149#18150#0" expanded="true" />
-                <element signature="e#18330#18847#0" expanded="true" />
-                <element signature="e#18506#18514#0" expanded="true" />
-                <element signature="e#18836#18837#0" expanded="true" />
-                <element signature="e#19015#19527#0" expanded="true" />
-                <element signature="e#19188#19195#0" expanded="true" />
-                <element signature="e#19516#19517#0" expanded="true" />
-                <element signature="e#19693#20200#0" expanded="true" />
-                <element signature="e#19863#19869#0" expanded="true" />
-                <element signature="e#20189#20190#0" expanded="true" />
-                <element signature="e#20401#20945#0" expanded="true" />
-                <element signature="e#20577#20585#0" expanded="true" />
-                <element signature="e#20934#20935#0" expanded="true" />
-                <element signature="e#21144#21689#0" expanded="true" />
-                <element signature="e#21323#21332#0" expanded="true" />
-                <element signature="e#21678#21679#0" expanded="true" />
-                <element signature="e#21886#22420#0" expanded="true" />
-                <element signature="e#22056#22062#0" expanded="true" />
-                <element signature="e#22409#22410#0" expanded="true" />
-                <element signature="e#22623#23172#0" expanded="true" />
-                <element signature="e#22802#22811#0" expanded="true" />
-                <element signature="e#23161#23162#0" expanded="true" />
-                <element signature="e#23371#23910#0" expanded="true" />
-                <element signature="e#23544#23551#0" expanded="true" />
-                <element signature="e#23899#23900#0" expanded="true" />
-                <element signature="e#24111#24655#0" expanded="true" />
-                <element signature="e#24287#24295#0" expanded="true" />
-                <element signature="e#24644#24645#0" expanded="true" />
-                <element signature="e#24854#25393#0" expanded="true" />
-                <element signature="e#25027#25034#0" expanded="true" />
-                <element signature="e#25382#25383#0" expanded="true" />
-                <element signature="e#25594#26128#0" expanded="true" />
-                <element signature="e#25764#25770#0" expanded="true" />
-                <element signature="e#26117#26118#0" expanded="true" />
+                <element signature="e#1645#2005#0" expanded="true" />
+                <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#2157#2593#0" expanded="true" />
+                <element signature="e#2582#2583#0" expanded="true" />
+                <element signature="e#2767#3208#0" expanded="true" />
+                <element signature="e#3197#3198#0" expanded="true" />
+                <element signature="e#3372#3807#0" expanded="true" />
+                <element signature="e#3796#3797#0" expanded="true" />
+                <element signature="e#3991#4454#0" expanded="true" />
+                <element signature="e#4443#4444#0" expanded="true" />
+                <element signature="e#4649#5111#0" expanded="true" />
+                <element signature="e#5100#5101#0" expanded="true" />
+                <element signature="e#5293#5792#0" expanded="true" />
+                <element signature="e#5781#5782#0" expanded="true" />
+                <element signature="e#5958#6444#0" expanded="true" />
+                <element signature="e#6433#6434#0" expanded="true" />
+                <element signature="e#6641#7154#0" expanded="true" />
+                <element signature="e#7143#7144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -223,7 +162,7 @@
       <file leaf-file-name="Example.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="87" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+            <state line="40" column="55" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,22 +197,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/COPYING" />
-        <option value="$PROJECT_DIR$/src/main/data/core/FromDb.java" />
-        <option value="$PROJECT_DIR$/src/main/data/test/Tmp.java" />
-        <option value="$PROJECT_DIR$/src/main/data/String.java" />
-        <option value="$PROJECT_DIR$/src/main/toro/String.java" />
         <option value="$PROJECT_DIR$/src/main/data/core/Get.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetString.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetInt.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetBoolean.java" />
         <option value="$PROJECT_DIR$/src/main/toro/GetLong.java" />
         <option value="$PROJECT_DIR$/src/main/toro/EdgeResultSet.java" />
-        <option value="$PROJECT_DIR$/src/main/toro/Db.java" />
         <option value="$PROJECT_DIR$/src/main/toro/Tmp.java" />
-        <option value="$PROJECT_DIR$/src/main/example/Example.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/toro/GetDouble.java" />
+        <option value="$PROJECT_DIR$/src/main/toro/GetFloat.java" />
+        <option value="$PROJECT_DIR$/src/main/toro/GetShort.java" />
+        <option value="$PROJECT_DIR$/src/main/toro/GetByte.java" />
+        <option value="$PROJECT_DIR$/src/main/toro/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/toro/Getters.java" />
+        <option value="$PROJECT_DIR$/src/main/example/Example.java" />
+        <option value="$PROJECT_DIR$/src/main/toro/Db.java" />
       </list>
     </option>
   </component>
@@ -798,7 +737,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.6698718" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3301282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -866,44 +805,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar!/java/sql/ResultSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="138" selection-end="15523" vertical-scroll-proportion="0.12479201" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/COPYING">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="198" selection-end="198" vertical-scroll-proportion="0.09983361" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/data/core/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="69" selection-end="69" vertical-scroll-proportion="0.04945055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/data/core/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="0.032967035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/data/core/FromDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="113" selection-end="113" vertical-scroll-proportion="0.082417585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/toro/GetInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="80" selection-end="80" vertical-scroll-proportion="0.09983361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/toro/GetBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
@@ -925,123 +826,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/toro/GetLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.17470881">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/toro/EdgeResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="5" selection-start="2026" selection-end="2026" vertical-scroll-proportion="2.0465891">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/toro/Db.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="61" selection-start="2538" selection-end="2538" vertical-scroll-proportion="-13.2">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#638#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#764#1013#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1147#1480#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1640#2008#0" expanded="true" />
-            <element signature="e#1997#1998#0" expanded="true" />
-            <element signature="e#2167#2602#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2754#3190#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-            <element signature="e#3353#3803#0" expanded="true" />
-            <element signature="e#3792#3793#0" expanded="true" />
-            <element signature="e#3964#4413#0" expanded="true" />
-            <element signature="e#4402#4403#0" expanded="true" />
-            <element signature="e#4572#5016#0" expanded="true" />
-            <element signature="e#5005#5006#0" expanded="true" />
-            <element signature="e#5178#5631#0" expanded="true" />
-            <element signature="e#5620#5621#0" expanded="true" />
-            <element signature="e#5792#6239#0" expanded="true" />
-            <element signature="e#6228#6229#0" expanded="true" />
-            <element signature="e#6402#6852#0" expanded="true" />
-            <element signature="e#6841#6842#0" expanded="true" />
-            <element signature="e#7013#7460#0" expanded="true" />
-            <element signature="e#7449#7450#0" expanded="true" />
-            <element signature="e#7619#8063#0" expanded="true" />
-            <element signature="e#8052#8053#0" expanded="true" />
-            <element signature="e#8248#8711#0" expanded="true" />
-            <element signature="e#8700#8701#0" expanded="true" />
-            <element signature="e#8906#9383#0" expanded="true" />
-            <element signature="e#9372#9373#0" expanded="true" />
-            <element signature="e#9579#10055#0" expanded="true" />
-            <element signature="e#10044#10045#0" expanded="true" />
-            <element signature="e#10245#10716#0" expanded="true" />
-            <element signature="e#10705#10706#0" expanded="true" />
-            <element signature="e#10912#11392#0" expanded="true" />
-            <element signature="e#11381#11382#0" expanded="true" />
-            <element signature="e#11584#12058#0" expanded="true" />
-            <element signature="e#12047#12048#0" expanded="true" />
-            <element signature="e#12252#12729#0" expanded="true" />
-            <element signature="e#12718#12719#0" expanded="true" />
-            <element signature="e#12921#13395#0" expanded="true" />
-            <element signature="e#13384#13385#0" expanded="true" />
-            <element signature="e#13585#14056#0" expanded="true" />
-            <element signature="e#14045#14046#0" expanded="true" />
-            <element signature="e#14240#14739#0" expanded="true" />
-            <element signature="e#14728#14729#0" expanded="true" />
-            <element signature="e#14910#15427#0" expanded="true" />
-            <element signature="e#15086#15094#0" expanded="true" />
-            <element signature="e#15416#15417#0" expanded="true" />
-            <element signature="e#15595#16113#0" expanded="true" />
-            <element signature="e#15774#15783#0" expanded="true" />
-            <element signature="e#16102#16103#0" expanded="true" />
-            <element signature="e#16279#16786#0" expanded="true" />
-            <element signature="e#16449#16455#0" expanded="true" />
-            <element signature="e#16775#16776#0" expanded="true" />
-            <element signature="e#16958#17480#0" expanded="true" />
-            <element signature="e#17137#17146#0" expanded="true" />
-            <element signature="e#17469#17470#0" expanded="true" />
-            <element signature="e#17648#18160#0" expanded="true" />
-            <element signature="e#17821#17828#0" expanded="true" />
-            <element signature="e#18149#18150#0" expanded="true" />
-            <element signature="e#18330#18847#0" expanded="true" />
-            <element signature="e#18506#18514#0" expanded="true" />
-            <element signature="e#18836#18837#0" expanded="true" />
-            <element signature="e#19015#19527#0" expanded="true" />
-            <element signature="e#19188#19195#0" expanded="true" />
-            <element signature="e#19516#19517#0" expanded="true" />
-            <element signature="e#19693#20200#0" expanded="true" />
-            <element signature="e#19863#19869#0" expanded="true" />
-            <element signature="e#20189#20190#0" expanded="true" />
-            <element signature="e#20401#20945#0" expanded="true" />
-            <element signature="e#20577#20585#0" expanded="true" />
-            <element signature="e#20934#20935#0" expanded="true" />
-            <element signature="e#21144#21689#0" expanded="true" />
-            <element signature="e#21323#21332#0" expanded="true" />
-            <element signature="e#21678#21679#0" expanded="true" />
-            <element signature="e#21886#22420#0" expanded="true" />
-            <element signature="e#22056#22062#0" expanded="true" />
-            <element signature="e#22409#22410#0" expanded="true" />
-            <element signature="e#22623#23172#0" expanded="true" />
-            <element signature="e#22802#22811#0" expanded="true" />
-            <element signature="e#23161#23162#0" expanded="true" />
-            <element signature="e#23371#23910#0" expanded="true" />
-            <element signature="e#23544#23551#0" expanded="true" />
-            <element signature="e#23899#23900#0" expanded="true" />
-            <element signature="e#24111#24655#0" expanded="true" />
-            <element signature="e#24287#24295#0" expanded="true" />
-            <element signature="e#24644#24645#0" expanded="true" />
-            <element signature="e#24854#25393#0" expanded="true" />
-            <element signature="e#25027#25034#0" expanded="true" />
-            <element signature="e#25382#25383#0" expanded="true" />
-            <element signature="e#25594#26128#0" expanded="true" />
-            <element signature="e#25764#25770#0" expanded="true" />
-            <element signature="e#26117#26118#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,26 +842,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/toro/GetString.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.09983361">
+        <state line="16" column="121" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
+    <entry file="file://$PROJECT_DIR$/src/main/toro/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="87" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+        <state line="6" column="4" selection-start="86" selection-end="86" vertical-scroll-proportion="0.14975041">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/toro/Getters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="121" selection-start="659" selection-end="659" vertical-scroll-proportion="0.39933443">
-          <folding />
+        <state line="4" column="25" selection-start="60" selection-end="60" vertical-scroll-proportion="0.06593407">
+          <folding>
+            <element signature="e#105#263#0" expanded="true" />
+            <element signature="e#112#121#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#308#463#0" expanded="true" />
+            <element signature="e#315#323#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#504#652#0" expanded="true" />
+            <element signature="e#511#517#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#699#853#0" expanded="true" />
+            <element signature="e#706#715#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#897#1049#0" expanded="true" />
+            <element signature="e#904#911#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1092#1244#0" expanded="true" />
+            <element signature="e#1099#1106#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1289#1444#0" expanded="true" />
+            <element signature="e#1296#1304#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1489#1638#0" expanded="true" />
+            <element signature="e#1496#1502#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/example/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="55" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/toro/Db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="0" selection-start="7163" selection-end="7163" vertical-scroll-proportion="2.542373">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#592#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#737#1013#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1147#1480#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1645#2005#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2157#2593#0" expanded="true" />
+            <element signature="e#2582#2583#0" expanded="true" />
+            <element signature="e#2767#3208#0" expanded="true" />
+            <element signature="e#3197#3198#0" expanded="true" />
+            <element signature="e#3372#3807#0" expanded="true" />
+            <element signature="e#3796#3797#0" expanded="true" />
+            <element signature="e#3991#4454#0" expanded="true" />
+            <element signature="e#4443#4444#0" expanded="true" />
+            <element signature="e#4649#5111#0" expanded="true" />
+            <element signature="e#5100#5101#0" expanded="true" />
+            <element signature="e#5293#5792#0" expanded="true" />
+            <element signature="e#5781#5782#0" expanded="true" />
+            <element signature="e#5958#6444#0" expanded="true" />
+            <element signature="e#6433#6434#0" expanded="true" />
+            <element signature="e#6641#7154#0" expanded="true" />
+            <element signature="e#7143#7144#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,13 +2,12 @@ package example;
 
 import data.core.Action;
 import data.core.Option;
-import toro.Connector;
-import toro.Db;
-import toro.GetString;
-import toro.Tmp;
+import toro.*;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+
+import static toro.Getters.*;
 
 public class Example {
     private static final Connector connector = new Connector("jdbc:hsqldb:mem:test", "SA", "");
@@ -29,17 +28,17 @@ public class Example {
                 Boolean exists = database.queryExists(connection,"select * from test");
                 System.out.println(exists);
 
-                Option<Integer> version = database.queryInt(connection, "select * from test", 1);
+                Option<Integer> version = database.query(connection, "select * from test", 1, getInteger);
                 System.out.println( "version : " + version.getOr(0) );
 
-                Option<String> second = database.queryString(connection, "select second from test",1);
+                Option<String> second = database.query(connection, "select second from test", 1, getString);
                 System.out.println( "second : " + second.getOrDie() );
 
 
-                Option<String> s = database.query(connection,"select second from test",new GetString());
+                Option<String> s = database.query(connection,"select second from test", getString);
                 System.out.println("s = " + s.getOrDie());
 
-                Option<Tmp> tmp = database.queryX(connection,"select * from test", new Tmp());
+                Option<Tmp> tmp = database.queryObject(connection,"select * from test", new Tmp());
                 System.out.println("tmp.getOrDie().version = " + tmp.getOrDie().version);
                 System.out.println("tmp.getOrDie().second = " + tmp.getOrDie().second);
 
@@ -47,3 +46,8 @@ public class Example {
         });
     }
 }
+
+
+/*
+Some other consolidation. Have a convenience that converts a Get into a FromDb.
+ */
