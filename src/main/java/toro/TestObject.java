@@ -1,6 +1,6 @@
-package toro;
+package java.toro;
 
-import data.core.FromDb;
+import java.data.core.FromDb;
 
 public class TestObject implements FromDb<TestObject> {
     public Integer version;

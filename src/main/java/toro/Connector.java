@@ -1,8 +1,8 @@
-package toro;
+package java.toro;
 
-import data.core.Action;
-import data.core.Function;
-import data.error.DatabaseException;
+import java.data.core.Action;
+import java.data.core.Function;
+import java.data.error.DatabaseException;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,6 +1,6 @@
-package toro;
+package java.toro;
 
-import data.core.Get;
+import java.data.core.Get;
 
 public class GetBoolean implements Get<Boolean> {
     public Boolean result(EdgeResultSet resultSet, Integer column) {

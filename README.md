@@ -1,9 +1,9 @@
 # Toro
 
 
-[![Build Status](https://travis-ci.org/nhibberd/toro.png)](https://travis-ci.org/nhibberd/toro)
+[![Build Status](https://travis-ci.org/nhibberd/java.toro.png)](https://travis-ci.org/nhibberd/java.toro)
 
-### What is toro?
+### What is java.toro?
 
 Toro is a Java library to help manage SQL connections and transactions. It provides functionality to easily intereact with databases in a safe and simple manner.
 
@@ -11,8 +11,8 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 ### Features
 
 * Neatly handling SQL connections
-* Convenient ([`Option<T>`](https://github.com/nhibberd/toro/blob/master/src/main/data/core/Option.java)) return types
-* Interfaces for Generic Data Types ([`Interface Get<T>`](https://github.com/nhibberd/toro/blob/master/src/main/data/core/Get.java)) and Generic Objects ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/data/core/FromDb.java))
+* Convenient ([`Option<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/Option.java)) return types
+* Interfaces for Generic Data Types ([`Interface Get<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/Get.java)) and Generic Objects ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/FromDb.java))
 * Update Generic Data Types
 * Query Option of Generic Data Types and Generic Objects
 * Query Lists of Primitive Data Types and Generic Objects
@@ -21,7 +21,7 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 ### Documentation
 
 * [User Docs]()
-* [Examples](https://github.com/nhibberd/toro/blob/master/src/main/example/Example.java)
+* [Examples](https://github.com/nhibberd/toro/blob/master/src/main/java/example/Example.java)
 
 
 ### Usage

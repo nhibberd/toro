@@ -1,4 +1,4 @@
-package data.error;
+package java.data.error;
 
 public class DatabaseException extends RuntimeException {
     public DatabaseException() {

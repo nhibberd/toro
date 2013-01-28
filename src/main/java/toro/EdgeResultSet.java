@@ -1,4 +1,4 @@
-package toro;
+package java.toro;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

@@ -1,6 +1,6 @@
-package toro;
+package java.toro;
 
-import data.core.*;
+import java.data.core.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -68,7 +68,7 @@ public class Db {
                 EdgePreparedStatement z = new EdgePreparedStatement(preparedStatement);
                 EdgeResultSet resultSet = new EdgeResultSet(z);
                 if(resultSet.next())
-                    return Option.some(get.result(resultSet,column));
+                    return Option.some(get.result(resultSet, column));
                 return Option.none();
             }
         });

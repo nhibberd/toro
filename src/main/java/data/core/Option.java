@@ -1,4 +1,4 @@
-package data.core;
+package java.data.core;
 
 public abstract class Option<A> {
     public abstract <X> X fold(

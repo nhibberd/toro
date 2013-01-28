@@ -1,10 +1,10 @@
-package toro;
+package java.toro;
 
-import data.core.FromDb;
-import data.core.Get;
+import java.data.core.FromDb;
+import java.data.core.Get;
 
 public class Convert {
-    public <T> FromDb<T> getToFromDb(final Get<T> object){
+    public static <T> FromDb<T> getToFromDb(final Get<T> object){
         return new FromDb<T>() {
             public T from(EdgeResultSet resultSet) {
                 return object.result(resultSet,1);
