@@ -119,8 +119,6 @@ Simple query setting multiply objects in the prepared statement
     database.updateObjects(connection,"update test set version=?", 5);
 ```
 
-
-##### Update
 ###### Updating values with VarArgs
 
 ```Java
