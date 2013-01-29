@@ -25,17 +25,29 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 
 
 ### Usage
-
 #### Generic Objects from database
 
 To query your own objects from the database, implement ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/FromDb.java))
 
 Implement the `from()` method which will be used to call the appropriate types from the columns provided, the syntax follows
-the simple process ` resultSet . get**Type** ( column ) `
+the simple process ` resultSet.getType( column )  `
 
-`
+```Java
     public TestObject from(EdgeResultSet resultSet) {
         return new TestObject(resultSet.getInt(1),resultSet.getString(2));
     }
+````
 
-`
+#### Primitive Data Types from database
+
+Import the primitive getters from `import static toro.Getters.*;`
+
+This will allow the use of a number of methods called `getType` where type representents a primitive data type.
+
+For example, the following code will return `java.lang.String`
+
+```Java
+    database.query(connection, "sql statement", column, getString);
+````
+
+
