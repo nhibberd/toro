@@ -111,7 +111,7 @@ public class Db {
         });
     }
 
-    public <T> List<T> queryList(Connection connection, String sql, final Get<T> get, final Integer columnNumber) {
+    public <T> List<T> queryList(Connection connection, String sql, final Integer columnNumber, final Get<T> get) {
         return statement.withStatement(connection, sql, new Function<PreparedStatement, List<T>>() {
             public List<T> apply(PreparedStatement preparedStatement) {
                 List<T> list = new ArrayList<T>();
