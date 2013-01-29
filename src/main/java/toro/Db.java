@@ -1,7 +1,5 @@
 package toro;
 
-import data.core.*;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package data.core;
+package toro;
 
 public interface Thunk<A> {
     A apply();

@@ -1,7 +1,5 @@
 package toro;
 
-import data.core.Get;
-
 public class Getters {
     public static Get<Boolean> getBoolean = new Get<Boolean>() {
         public Boolean result(EdgeResultSet resultSet, Integer column) {

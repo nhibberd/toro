@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/nhibberd/toro.png)](https://travis-ci.org/nhibberd/toro)
 
-### What is java.toro?
+### What is toro?
 
 Toro is a Java library to help manage SQL connections and transactions. It provides functionality to easily intereact with databases in a safe and simple manner.
 

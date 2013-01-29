@@ -1,4 +1,4 @@
-package data.error;
+package toro;
 
 public class DatabaseException extends RuntimeException {
     public DatabaseException() {

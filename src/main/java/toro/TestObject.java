@@ -1,7 +1,5 @@
 package toro;
 
-import data.core.FromDb;
-
 public class TestObject implements FromDb<TestObject> {
     public Integer version;
     public String second;

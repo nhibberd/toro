@@ -1,8 +1,8 @@
 package example;
 
-import data.core.Action;
-import data.core.FromDb;
-import data.core.Option;
+import toro.Action;
+import toro.FromDb;
+import toro.Option;
 import toro.*;
 
 import java.sql.Connection;

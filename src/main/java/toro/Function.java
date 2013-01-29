@@ -1,4 +1,4 @@
-package data.core;
+package toro;
 
 public interface Function<A, B> {
     B apply(A a);

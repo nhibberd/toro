@@ -1,4 +1,4 @@
-package data.core;
+package toro;
 
 import toro.EdgeResultSet;
 

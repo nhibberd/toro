@@ -1,4 +1,4 @@
-package data.core;
+package toro;
 
 public class Error {
     private String type;
