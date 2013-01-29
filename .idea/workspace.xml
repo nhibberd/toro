@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431b147-ce7c-4fd1-9d54-daba081619e7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/toro/GetBoolean.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/toro/TestObject.java" afterPath="$PROJECT_DIR$/src/main/java/example/TestObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java" afterPath="$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="toro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +11,7 @@
     <file path="/a.dummy" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424085554" ignored="false" />
     <file path="/Db.java" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359355932750" ignored="false" />
     <file path="/.gitignore" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359356164665" ignored="false" />
-    <file path="/README.md" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424057857" ignored="false" />
+    <file path="/README.md" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424620012" ignored="false" />
     <file path="/EdgeResultSet.java" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424158678" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,10 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestObject.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/example/TestObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="67" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3618421">
+            <state line="5" column="0" selection-start="66" selection-end="472" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="57" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.5506118">
               <folding />
             </state>
           </provider>
@@ -146,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/main/java/toro/TestObject.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/example/Example.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/example/TestObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -576,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.08342603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="14" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
@@ -622,7 +622,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/TestObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="67" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3618421">
+        <state line="5" column="0" selection-start="66" selection-end="472" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="57" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.5506118">
           <folding />
         </state>
       </provider>

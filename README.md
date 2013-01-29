@@ -26,4 +26,16 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 
 ### Usage
 
-Implement interface
+#### Generic Objects from database
+
+To query your own objects from the database, implement ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/FromDb.java))
+
+Implement the `from()` method which will be used to call the appropriate types from the columns provided, the syntax follows
+the simple process ` resultSet . get**Type** ( column ) `
+
+`
+    public TestObject from(EdgeResultSet resultSet) {
+        return new TestObject(resultSet.getInt(1),resultSet.getString(2));
+    }
+
+`
