@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431b147-ce7c-4fd1-9d54-daba081619e7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Action.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Action.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Empty.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Empty.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Error.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Error.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/FromDb.java" afterPath="$PROJECT_DIR$/src/main/java/toro/FromDb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Function.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Function.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Get.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Get.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Option.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Option.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/core/Thunk.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Thunk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/error/DatabaseException.java" afterPath="$PROJECT_DIR$/src/main/java/toro/DatabaseException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/Connector.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Connector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/Convert.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Convert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/Db.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Db.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/Example.java" afterPath="$PROJECT_DIR$/src/main/java/example/Example.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/GetBoolean.java" afterPath="$PROJECT_DIR$/src/main/java/toro/GetBoolean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/Getters.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Getters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/Statement.java" afterPath="$PROJECT_DIR$/src/main/java/toro/Statement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/TestObject.java" afterPath="$PROJECT_DIR$/src/main/java/toro/TestObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toro.iml" afterPath="$PROJECT_DIR$/toro.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/toro/GetBoolean.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/toro/TestObject.java" afterPath="$PROJECT_DIR$/src/main/java/example/TestObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java" afterPath="$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java" />
     </list>
     <ignored path="toro.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359423800954" ignored="false" />
     <file path="/fragment.java" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424044434" ignored="false" />
-    <file path="/a.dummy" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359355965908" ignored="false" />
+    <file path="/a.dummy" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424085554" ignored="false" />
     <file path="/Db.java" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359355932750" ignored="false" />
     <file path="/.gitignore" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359356164665" ignored="false" />
     <file path="/README.md" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424057857" ignored="false" />
+    <file path="/EdgeResultSet.java" changelist="3431b147-ce7c-4fd1-9d54-daba081619e7" time="1359424158678" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +82,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="Db.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/toro/Db.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.08342603">
+            <state line="18" column="17" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Getters.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/toro/Getters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="44" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#82#240#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#285#440#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestObject.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/TestObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="67" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3618421">
               <folding />
             </state>
           </provider>
@@ -138,6 +147,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/example/Example.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/example/TestObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java" />
       </list>
     </option>
   </component>
@@ -420,6 +431,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -429,11 +441,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -532,84 +543,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toro/Db.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#571#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#716#992#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1126#1459#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1624#1984#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2136#2572#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
-            <element signature="e#2746#3188#0" expanded="true" />
-            <element signature="e#3177#3178#0" expanded="true" />
-            <element signature="e#3352#3787#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <element signature="e#3971#4434#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
-            <element signature="e#4629#5091#0" expanded="true" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5273#5772#0" expanded="true" />
-            <element signature="e#5761#5762#0" expanded="true" />
-            <element signature="e#5938#6424#0" expanded="true" />
-            <element signature="e#6413#6414#0" expanded="true" />
-            <element signature="e#6621#7134#0" expanded="true" />
-            <element signature="e#7123#7124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/toro/EdgePreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toro/GetBoolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toro/Getters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#82#240#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#285#440#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#481#629#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#676#830#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#1026#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1069#1221#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1266#1421#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1466#1615#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,16 +569,16 @@
         <state line="3" column="4" selection-start="23" selection-end="23" vertical-scroll-proportion="0.049342107" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toro/TestObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/toro/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032894738">
+        <state line="5" column="40" selection-start="67" selection-end="67" vertical-scroll-proportion="0.08223684">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toro/Action.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="67" selection-end="67" vertical-scroll-proportion="0.08223684">
+        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.08342603">
           <folding />
         </state>
       </provider>
@@ -652,9 +590,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/toro/Db.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.08342603">
+        <state line="18" column="17" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toro/Getters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#82#240#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#285#440#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toro/EdgeResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="10" selection-start="2208" selection-end="2208" vertical-scroll-proportion="1.0927153">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/TestObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="67" selection-start="473" selection-end="473" vertical-scroll-proportion="0.3618421">
           <folding />
         </state>
       </provider>

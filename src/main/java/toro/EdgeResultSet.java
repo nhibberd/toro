@@ -26,7 +26,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected String getString(int index) {
+    public String getString(int index) {
         try {
             return resultSet.getString(index);
         } catch (SQLException e) {
@@ -34,7 +34,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected Boolean getBoolean(int index) {
+    public Boolean getBoolean(int index) {
         try {
             return resultSet.getBoolean(index);
         } catch (SQLException e) {
@@ -42,7 +42,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected Integer getInt(int index) {
+    public Integer getInt(int index) {
         try {
             return resultSet.getInt(index);
         } catch (SQLException e) {
@@ -50,7 +50,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected Long getLong(int index) {
+    public Long getLong(int index) {
         try {
             return resultSet.getLong(index);
         } catch (SQLException e) {
@@ -58,7 +58,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected Short getShort(int index) {
+    public Short getShort(int index) {
         try {
             return resultSet.getShort(index);
         } catch (SQLException e) {
@@ -66,7 +66,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected Double getDouble(int index) {
+    public Double getDouble(int index) {
         try {
             return resultSet.getDouble(index);
         } catch (SQLException e) {
@@ -74,7 +74,7 @@ public class EdgeResultSet {
         }
     }
 
-    protected Float getFloat(int index) {
+    public Float getFloat(int index) {
         try {
             return resultSet.getFloat(index);
         } catch (SQLException e) {
@@ -82,15 +82,15 @@ public class EdgeResultSet {
         }
     }
 
-    protected Byte getByte(int index) {
+    public Byte getByte(int index) {
         try {
             return resultSet.getByte(index);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
-    
-    protected Object getObject(int index) {
+
+    public Object getObject(int index) {
         try {
             return resultSet.getObject(index);
         } catch (SQLException e) {

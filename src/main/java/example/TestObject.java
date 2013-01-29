@@ -1,4 +1,7 @@
-package toro;
+package example;
+
+import toro.EdgeResultSet;
+import toro.FromDb;
 
 public class TestObject implements FromDb<TestObject> {
     public Integer version;
