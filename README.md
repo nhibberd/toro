@@ -11,8 +11,8 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 ### Features
 
 * Neatly handling SQL connections
-* Convenient ([`Option<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/Option.java)) return types
-* Interfaces for Generic Data Types ([`Interface Get<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/Get.java)) and Generic Objects ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/FromDb.java))
+* Convenient ([`Option<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Option.java)) return types
+* Interfaces for Generic Data Types ([`Interface Get<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Get.java)) and Generic Objects ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/FromDb.java))
 * Update Generic Data Types
 * Query Option of Generic Data Types and Generic Objects
 * Query Lists of Primitive Data Types and Generic Objects
@@ -27,7 +27,7 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 ### Usage
 #### Generic Objects from database
 
-To query your own objects from the database, implement ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/data/core/FromDb.java))
+To query your own objects from the database, implement ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/FromDb.java))
 
 Implement the `from()` method which will be used to call the appropriate types from the columns provided, the syntax follows
 the simple process ` resultSet.getType( column )  `
@@ -40,7 +40,7 @@ the simple process ` resultSet.getType( column )  `
 
 #### Primitive Data Types from database
 
-Import the primitive getters from `import static toro.Getters.*;`
+Import the primitive [getters](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Getters.java) from `import static toro.Getters.*;`
 
 This will allow the use of a number of methods called `getType` where type representents a primitive data type.
 
