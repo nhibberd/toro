@@ -16,14 +16,16 @@ public class Example {
     // Initialize Connector
     private static final Connector connector = new Connector("jdbc:hsqldb:mem:test", "SA", "");
 
+
+
+    // Initialize Db
+    static Db database = new Db();
+
     public static void main(String[] args) {
 
-        // Initialize connection
+        // Initialize connection with Action - void return
         connector.withConnection(new Action<Connection>(){
             public void apply(Connection connection) {
-
-                // Initialize Db
-                Db database = new Db();
 
                 // Create table
                 database.executeUpdate(connection,"create table test ( version varchar(10), second varchar(255) )");
@@ -65,7 +67,7 @@ public class Example {
                 System.out.println("result : " + result.getOrDie());
 
                 // Query using an object
-                Option<String> s = database.queryFromObjects(connection,"select second from test where version=?", getString, 5);
+                Option<String> s = database.queryFromObjects(connection, "select second from test where version=?", getString, 5);
                 System.out.println("from single object = " + s.getOrDie());
 
                 // Query using multiply objects
@@ -78,9 +80,17 @@ public class Example {
                 System.out.println("testObject version = " + testObject.getOrDie().version);
                 System.out.println("testObject second = " + testObject.getOrDie().second);
 
-
-
             }
         });
+
+        // Initialize connection with Function to return X
+        String stringReturned = connector.withConnection(new Function<Connection, String>(){
+            public String apply(Connection connection) {
+                //return String from query
+                return database.queryFromObjects(connection, "select second from test where version=?", getString, 5).getOr("error");
+            }
+        });
+
+        System.out.println("stringReturned = " + stringReturned);
     }
 }

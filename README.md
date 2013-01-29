@@ -25,6 +25,35 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 
 
 ### Usage
+#### Connector
+
+###### Initializing connectors
+```Java
+    private static final Connector connector = new Connector("url", "username", "password");
+````
+
+###### Using connectors
+Two main usages, [Action](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Action.java) and [Function](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Function.java).
+
+Action is used when not returning anything from the connection
+```Java
+    connector.withConnection(new Action<Connection>(){
+        public void apply(Connection connection) {
+            //code
+        }
+    });
+````
+
+Function is used when returning `X` from the connection
+```Java
+    return connector.withConnection(new Function<Connection, X>(){
+        public X apply(Connection connection) {
+            //code
+        }
+    });
+````
+where X is a Data Type
+
 #### Query Generic Objects from database
 
 To query your own objects from the database, implement ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/FromDb.java))
