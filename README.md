@@ -33,7 +33,7 @@ Toro is a Java library to help manage SQL connections and transactions. It provi
 ````
 
 ###### Using connectors
-Two main usages, [Action](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Action.java) and [Function](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Function.java).
+Two implementations, [Action](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Action.java) and [Function](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Function.java).
 
 Action is used when not returning anything from the connection
 ```Java
