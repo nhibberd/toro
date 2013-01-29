@@ -54,7 +54,9 @@ Function is used when returning `X` from the connection
 ````
 where X is a Data Type
 
-#### Query Generic Objects from database
+#### Query's
+
+##### Generic Objects from database
 
 To query your own objects from the database, implement ([`Interface FromDb<T>`](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/FromDb.java))
 
@@ -67,7 +69,7 @@ the simple process ` resultSet.getType( column )  `
     }
 ````
 
-#### Query Primitive Data Types from database
+##### Primitive Data Types from database
 
 Import the primitive [getters](https://github.com/nhibberd/toro/blob/master/src/main/java/toro/Getters.java) from `import static toro.Getters.*;`
 
@@ -79,7 +81,7 @@ For example, the following code will return `java.lang.String`
     database.query(connection, "sql statement", column, getString);
 ````
 
-#### Query's
+##### Other
 
 Simple query setting an object in the prepared statement
 
@@ -98,26 +100,28 @@ Simple query setting multiply objects in the prepared statement
 
 #### Updates
 
-Simple update - creating a table
+##### Simple
+###### Creating a table
 
 ```Java
     database.executeUpdate(connection,"create table test ( version varchar(10), second varchar(255) )");
 ```
 
-Simple update - inserting values
+###### Inserting values
 
 ```Java
     database.updateObjects(connection, "insert into test values (?, ?)", 1, "foo");
 ```
 
-Simple update - updating values
+###### Updating values
 
 ```Java
     database.updateObjects(connection,"update test set version=?", 5);
 ```
 
 
-Update - updating values with VarArgs
+##### Update
+###### Updating values with VarArgs
 
 ```Java
     database.updateObjects(connection,"update test set version=? where second=?", 5, "foo");
