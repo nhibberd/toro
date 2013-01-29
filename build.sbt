@@ -1,4 +1,4 @@
-name := "java.toro"
+name := "toro"
 
 version := "0.1"
 
